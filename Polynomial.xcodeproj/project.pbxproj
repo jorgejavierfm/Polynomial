@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2249483616631D8600EC2665 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2249483516631D8600EC2665 /* AppController.m */; };
+		229BA1281662B7C6009A917D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229BA1271662B7C6009A917D /* Cocoa.framework */; };
+		229BA1321662B7C6009A917D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 229BA1301662B7C6009A917D /* InfoPlist.strings */; };
+		229BA1341662B7C6009A917D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BA1331662B7C6009A917D /* main.m */; };
+		229BA1381662B7C6009A917D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 229BA1361662B7C6009A917D /* Credits.rtf */; };
+		229BA13B1662B7C6009A917D /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BA13A1662B7C6009A917D /* Document.m */; };
+		229BA13E1662B7C6009A917D /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229BA13C1662B7C6009A917D /* Document.xib */; };
+		229BA1411662B7C6009A917D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229BA13F1662B7C6009A917D /* MainMenu.xib */; };
+		229BA1491662B7C6009A917D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229BA1481662B7C6009A917D /* SenTestingKit.framework */; };
+		229BA14A1662B7C6009A917D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229BA1271662B7C6009A917D /* Cocoa.framework */; };
+		229BA1611662B886009A917D /* GraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BA1601662B886009A917D /* GraphicsView.m */; };
+		229BA1641662BB95009A917D /* DrawSheetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BA1631662BB95009A917D /* DrawSheetController.m */; };
+		229BA1661662BBB4009A917D /* DrawSheet.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229BA1651662BBB4009A917D /* DrawSheet.xib */; };
+		229BA1691662C0C7009A917D /* FunctionOptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BA1681662C0C7009A917D /* FunctionOptionController.m */; };
+		229BA16B1662C0E5009A917D /* FunctionOption.xib in Resources */ = {isa = PBXBuildFile; fileRef = 229BA16A1662C0E5009A917D /* FunctionOption.xib */; };
+		229BA231166313D7009A917D /* GCMathParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 229BA22F166313D7009A917D /* GCMathParser.m */; };
+		229BA234166313E6009A917D /* ZExpParser.mm in Sources */ = {isa = PBXBuildFile; fileRef = 229BA233166313E6009A917D /* ZExpParser.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		22A178B316686E6100C2150C /* Polynomial.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A178B216686E6100C2150C /* Polynomial.m */; };
+		22A1AE46166ED5A3009EB382 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A1AE44166ED5A3009EB382 /* PreferencesController.m */; };
+		22A1AE4A166ED5BF009EB382 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A1AE49166ED5BF009EB382 /* Preferences.xib */; };
+		22A1AE59166F59A9009EB382 /* PanelsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A1AE58166F59A9009EB382 /* PanelsController.m */; };
+		22A4A181166C5FB6008EA7F5 /* LogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22A4A17F166C5FB6008EA7F5 /* LogController.m */; };
+		22A4A185166C6035008EA7F5 /* Logs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A4A184166C6035008EA7F5 /* Logs.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229BA14B1662B7C6009A917D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229BA11A1662B7C6009A917D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229BA1221662B7C6009A917D;
+			remoteInfo = Polynomial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2249483416631D8600EC2665 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppController.h; path = ../AppController.h; sourceTree = "<group>"; };
+		2249483516631D8600EC2665 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppController.m; path = ../AppController.m; sourceTree = "<group>"; };
+		229BA1231662B7C6009A917D /* Polynomial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polynomial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229BA1271662B7C6009A917D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		229BA12A1662B7C6009A917D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		229BA12B1662B7C6009A917D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		229BA12C1662B7C6009A917D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		229BA12F1662B7C6009A917D /* Polynomial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Polynomial-Info.plist"; sourceTree = "<group>"; };
+		229BA1311662B7C6009A917D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		229BA1331662B7C6009A917D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		229BA1351662B7C6009A917D /* Polynomial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Polynomial-Prefix.pch"; sourceTree = "<group>"; };
+		229BA1371662B7C6009A917D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		229BA1391662B7C6009A917D /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		229BA13A1662B7C6009A917D /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		229BA13D1662B7C6009A917D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
+		229BA1401662B7C6009A917D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		229BA1471662B7C6009A917D /* PolynomialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PolynomialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229BA1481662B7C6009A917D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		229BA15F1662B886009A917D /* GraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsView.h; sourceTree = "<group>"; };
+		229BA1601662B886009A917D /* GraphicsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsView.m; sourceTree = "<group>"; };
+		229BA1621662BB95009A917D /* DrawSheetController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawSheetController.h; sourceTree = "<group>"; };
+		229BA1631662BB95009A917D /* DrawSheetController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawSheetController.m; sourceTree = "<group>"; };
+		229BA1651662BBB4009A917D /* DrawSheet.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrawSheet.xib; sourceTree = "<group>"; };
+		229BA1671662C0C7009A917D /* FunctionOptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionOptionController.h; sourceTree = "<group>"; };
+		229BA1681662C0C7009A917D /* FunctionOptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionOptionController.m; sourceTree = "<group>"; };
+		229BA16A1662C0E5009A917D /* FunctionOption.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FunctionOption.xib; sourceTree = "<group>"; };
+		229BA22E166313D7009A917D /* GCMathParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCMathParser.h; sourceTree = "<group>"; };
+		229BA22F166313D7009A917D /* GCMathParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCMathParser.m; sourceTree = "<group>"; };
+		229BA232166313E6009A917D /* ZExpParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZExpParser.h; sourceTree = "<group>"; };
+		229BA233166313E6009A917D /* ZExpParser.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZExpParser.mm; sourceTree = "<group>"; };
+		22A178B116686E6100C2150C /* Polynomial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polynomial.h; sourceTree = "<group>"; };
+		22A178B216686E6100C2150C /* Polynomial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polynomial.m; sourceTree = "<group>"; };
+		22A1AE43166ED5A3009EB382 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		22A1AE44166ED5A3009EB382 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		22A1AE49166ED5BF009EB382 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Preferences.xib; path = ../Preferences.xib; sourceTree = "<group>"; };
+		22A1AE57166F59A9009EB382 /* PanelsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelsController.h; sourceTree = "<group>"; };
+		22A1AE58166F59A9009EB382 /* PanelsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelsController.m; sourceTree = "<group>"; };
+		22A4A17E166C5FB5008EA7F5 /* LogController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogController.h; sourceTree = "<group>"; };
+		22A4A17F166C5FB6008EA7F5 /* LogController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogController.m; sourceTree = "<group>"; };
+		22A4A184166C6035008EA7F5 /* Logs.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = Logs.xib; path = ../Logs.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229BA1201662B7C6009A917D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229BA1281662B7C6009A917D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229BA1431662B7C6009A917D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229BA1491662B7C6009A917D /* SenTestingKit.framework in Frameworks */,
+				229BA14A1662B7C6009A917D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2249483816631DA500EC2665 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				229BA15F1662B886009A917D /* GraphicsView.h */,
+				229BA1601662B886009A917D /* GraphicsView.m */,
+				2249483416631D8600EC2665 /* AppController.h */,
+				2249483516631D8600EC2665 /* AppController.m */,
+				22A178B116686E6100C2150C /* Polynomial.h */,
+				22A178B216686E6100C2150C /* Polynomial.m */,
+				22A1AE57166F59A9009EB382 /* PanelsController.h */,
+				22A1AE58166F59A9009EB382 /* PanelsController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		229BA1181662B7C6009A917D = {
+			isa = PBXGroup;
+			children = (
+				229BA12D1662B7C6009A917D /* Polynomial */,
+				229BA1261662B7C6009A917D /* Frameworks */,
+				229BA1241662B7C6009A917D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		229BA1241662B7C6009A917D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229BA1231662B7C6009A917D /* Polynomial.app */,
+				229BA1471662B7C6009A917D /* PolynomialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229BA1261662B7C6009A917D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229BA1271662B7C6009A917D /* Cocoa.framework */,
+				229BA1481662B7C6009A917D /* SenTestingKit.framework */,
+				229BA1291662B7C6009A917D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		229BA1291662B7C6009A917D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				229BA12A1662B7C6009A917D /* AppKit.framework */,
+				229BA12B1662B7C6009A917D /* CoreData.framework */,
+				229BA12C1662B7C6009A917D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		229BA12D1662B7C6009A917D /* Polynomial */ = {
+			isa = PBXGroup;
+			children = (
+				229BA22516631392009A917D /* Parser */,
+				229BA15E1662B7DE009A917D /* Sheets&Panels */,
+				2249483816631DA500EC2665 /* Classes */,
+				229BA1391662B7C6009A917D /* Document.h */,
+				229BA13A1662B7C6009A917D /* Document.m */,
+				229BA13C1662B7C6009A917D /* Document.xib */,
+				229BA13F1662B7C6009A917D /* MainMenu.xib */,
+				229BA12E1662B7C6009A917D /* Supporting Files */,
+			);
+			path = Polynomial;
+			sourceTree = "<group>";
+		};
+		229BA12E1662B7C6009A917D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				229BA12F1662B7C6009A917D /* Polynomial-Info.plist */,
+				229BA1301662B7C6009A917D /* InfoPlist.strings */,
+				229BA1331662B7C6009A917D /* main.m */,
+				229BA1351662B7C6009A917D /* Polynomial-Prefix.pch */,
+				229BA1361662B7C6009A917D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		229BA15E1662B7DE009A917D /* Sheets&Panels */ = {
+			isa = PBXGroup;
+			children = (
+				22A4A17E166C5FB5008EA7F5 /* LogController.h */,
+				22A4A17F166C5FB6008EA7F5 /* LogController.m */,
+				22A4A184166C6035008EA7F5 /* Logs.xib */,
+				22A1AE43166ED5A3009EB382 /* PreferencesController.h */,
+				22A1AE44166ED5A3009EB382 /* PreferencesController.m */,
+				22A1AE49166ED5BF009EB382 /* Preferences.xib */,
+				229BA1621662BB95009A917D /* DrawSheetController.h */,
+				229BA1631662BB95009A917D /* DrawSheetController.m */,
+				229BA1651662BBB4009A917D /* DrawSheet.xib */,
+				229BA1671662C0C7009A917D /* FunctionOptionController.h */,
+				229BA1681662C0C7009A917D /* FunctionOptionController.m */,
+				229BA16A1662C0E5009A917D /* FunctionOption.xib */,
+			);
+			name = "Sheets&Panels";
+			sourceTree = "<group>";
+		};
+		229BA22516631392009A917D /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				229BA226166313A0009A917D /* Classes */,
+				229BA227166313A7009A917D /* Resources */,
+			);
+			name = Parser;
+			sourceTree = "<group>";
+		};
+		229BA226166313A0009A917D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				229BA22E166313D7009A917D /* GCMathParser.h */,
+				229BA22F166313D7009A917D /* GCMathParser.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		229BA227166313A7009A917D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				229BA232166313E6009A917D /* ZExpParser.h */,
+				229BA233166313E6009A917D /* ZExpParser.mm */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229BA1221662B7C6009A917D /* Polynomial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229BA1581662B7C7009A917D /* Build configuration list for PBXNativeTarget "Polynomial" */;
+			buildPhases = (
+				229BA11F1662B7C6009A917D /* Sources */,
+				229BA1201662B7C6009A917D /* Frameworks */,
+				229BA1211662B7C6009A917D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polynomial;
+			productName = Polynomial;
+			productReference = 229BA1231662B7C6009A917D /* Polynomial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		229BA1461662B7C6009A917D /* PolynomialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229BA15B1662B7C7009A917D /* Build configuration list for PBXNativeTarget "PolynomialTests" */;
+			buildPhases = (
+				229BA1421662B7C6009A917D /* Sources */,
+				229BA1431662B7C6009A917D /* Frameworks */,
+				229BA1441662B7C6009A917D /* Resources */,
+				229BA1451662B7C6009A917D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229BA14C1662B7C6009A917D /* PBXTargetDependency */,
+			);
+			name = PolynomialTests;
+			productName = PolynomialTests;
+			productReference = 229BA1471662B7C6009A917D /* PolynomialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229BA11A1662B7C6009A917D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = iTMiNus;
+			};
+			buildConfigurationList = 229BA11D1662B7C6009A917D /* Build configuration list for PBXProject "Polynomial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 229BA1181662B7C6009A917D;
+			productRefGroup = 229BA1241662B7C6009A917D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229BA1221662B7C6009A917D /* Polynomial */,
+				229BA1461662B7C6009A917D /* PolynomialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229BA1211662B7C6009A917D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229BA1321662B7C6009A917D /* InfoPlist.strings in Resources */,
+				229BA1381662B7C6009A917D /* Credits.rtf in Resources */,
+				229BA13E1662B7C6009A917D /* Document.xib in Resources */,
+				229BA1411662B7C6009A917D /* MainMenu.xib in Resources */,
+				229BA1661662BBB4009A917D /* DrawSheet.xib in Resources */,
+				229BA16B1662C0E5009A917D /* FunctionOption.xib in Resources */,
+				22A4A185166C6035008EA7F5 /* Logs.xib in Resources */,
+				22A1AE4A166ED5BF009EB382 /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229BA1441662B7C6009A917D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		229BA1451662B7C6009A917D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229BA11F1662B7C6009A917D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229BA1341662B7C6009A917D /* main.m in Sources */,
+				229BA13B1662B7C6009A917D /* Document.m in Sources */,
+				229BA1611662B886009A917D /* GraphicsView.m in Sources */,
+				229BA1641662BB95009A917D /* DrawSheetController.m in Sources */,
+				229BA1691662C0C7009A917D /* FunctionOptionController.m in Sources */,
+				229BA231166313D7009A917D /* GCMathParser.m in Sources */,
+				229BA234166313E6009A917D /* ZExpParser.mm in Sources */,
+				2249483616631D8600EC2665 /* AppController.m in Sources */,
+				22A178B316686E6100C2150C /* Polynomial.m in Sources */,
+				22A4A181166C5FB6008EA7F5 /* LogController.m in Sources */,
+				22A1AE46166ED5A3009EB382 /* PreferencesController.m in Sources */,
+				22A1AE59166F59A9009EB382 /* PanelsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229BA1421662B7C6009A917D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229BA14C1662B7C6009A917D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229BA1221662B7C6009A917D /* Polynomial */;
+			targetProxy = 229BA14B1662B7C6009A917D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		229BA1301662B7C6009A917D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229BA1311662B7C6009A917D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		229BA1361662B7C6009A917D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229BA1371662B7C6009A917D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		229BA13C1662B7C6009A917D /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229BA13D1662B7C6009A917D /* en */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		229BA13F1662B7C6009A917D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229BA1401662B7C6009A917D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		229BA1561662B7C7009A917D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		229BA1571662B7C7009A917D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		229BA1591662B7C7009A917D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polynomial/Polynomial-Prefix.pch";
+				INFOPLIST_FILE = "Polynomial/Polynomial-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		229BA15A1662B7C7009A917D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polynomial/Polynomial-Prefix.pch";
+				INFOPLIST_FILE = "Polynomial/Polynomial-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		229BA15C1662B7C7009A917D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Polynomial.app/Contents/MacOS/Polynomial";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polynomial/Polynomial-Prefix.pch";
+				INFOPLIST_FILE = "PolynomialTests/PolynomialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		229BA15D1662B7C7009A917D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Polynomial.app/Contents/MacOS/Polynomial";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polynomial/Polynomial-Prefix.pch";
+				INFOPLIST_FILE = "PolynomialTests/PolynomialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229BA11D1662B7C6009A917D /* Build configuration list for PBXProject "Polynomial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229BA1561662B7C7009A917D /* Debug */,
+				229BA1571662B7C7009A917D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229BA1581662B7C7009A917D /* Build configuration list for PBXNativeTarget "Polynomial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229BA1591662B7C7009A917D /* Debug */,
+				229BA15A1662B7C7009A917D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229BA15B1662B7C7009A917D /* Build configuration list for PBXNativeTarget "PolynomialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229BA15C1662B7C7009A917D /* Debug */,
+				229BA15D1662B7C7009A917D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229BA11A1662B7C6009A917D /* Project object */;
+}
